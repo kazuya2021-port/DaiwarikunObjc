@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		256AC3DA0F4B6AC300CF3369 /* DaiwarikunObjcAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* DaiwarikunObjcAppDelegate.m */; };
+		2B5951F31C8EAE100054A1AF /* NaosiData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5951F21C8EAE100054A1AF /* NaosiData.m */; };
+		2B5952951C8EBADD0054A1AF /* ErrorAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5952941C8EBADD0054A1AF /* ErrorAlert.m */; };
+		2B5952D11C8EBD6A0054A1AF /* LayoutListControll.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5952D01C8EBD6A0054A1AF /* LayoutListControll.m */; };
+		2B5952E01C8EBEB20054A1AF /* Bai32L.lay in Resources */ = {isa = PBXBuildFile; fileRef = 2B5952D31C8EBEB20054A1AF /* Bai32L.lay */; };
+		2B5952E11C8EBEB20054A1AF /* Bai32P.lay in Resources */ = {isa = PBXBuildFile; fileRef = 2B5952D41C8EBEB20054A1AF /* Bai32P.lay */; };
+		2B5952E21C8EBEB20054A1AF /* Hon8P.lay in Resources */ = {isa = PBXBuildFile; fileRef = 2B5952D51C8EBEB20054A1AF /* Hon8P.lay */; };
+		2B5952E31C8EBEB20054A1AF /* Hon16P.lay in Resources */ = {isa = PBXBuildFile; fileRef = 2B5952D61C8EBEB20054A1AF /* Hon16P.lay */; };
+		2B5952E41C8EBEB20054A1AF /* Hon32L.lay in Resources */ = {isa = PBXBuildFile; fileRef = 2B5952D71C8EBEB20054A1AF /* Hon32L.lay */; };
+		2B5952E51C8EBEB20054A1AF /* Hon32P.lay in Resources */ = {isa = PBXBuildFile; fileRef = 2B5952D81C8EBEB20054A1AF /* Hon32P.lay */; };
+		2B5952E61C8EBEB20054A1AF /* Rin16.lay in Resources */ = {isa = PBXBuildFile; fileRef = 2B5952D91C8EBEB20054A1AF /* Rin16.lay */; };
+		2B5952E71C8EBEB20054A1AF /* Rin32.lay in Resources */ = {isa = PBXBuildFile; fileRef = 2B5952DA1C8EBEB20054A1AF /* Rin32.lay */; };
+		2B5952E81C8EBEB20054A1AF /* Tan2P.lay in Resources */ = {isa = PBXBuildFile; fileRef = 2B5952DB1C8EBEB20054A1AF /* Tan2P.lay */; };
+		2B5952E91C8EBEB20054A1AF /* Hon2P.lay in Resources */ = {isa = PBXBuildFile; fileRef = 2B5952DC1C8EBEB20054A1AF /* Hon2P.lay */; };
+		2B5952EA1C8EBEB20054A1AF /* Hon4P.lay in Resources */ = {isa = PBXBuildFile; fileRef = 2B5952DD1C8EBEB20054A1AF /* Hon4P.lay */; };
+		2B5952EB1C8EBEB20054A1AF /* Tan16L.lay in Resources */ = {isa = PBXBuildFile; fileRef = 2B5952DE1C8EBEB20054A1AF /* Tan16L.lay */; };
+		2B5952EC1C8EBEB20054A1AF /* Tan16P.lay in Resources */ = {isa = PBXBuildFile; fileRef = 2B5952DF1C8EBEB20054A1AF /* Tan16P.lay */; };
+		2B644F2D1C98DC4F00535EA9 /* daiwarikunIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 2B644F2C1C98DC4F00535EA9 /* daiwarikunIcon.icns */; };
+		2B7A8ACE1C8FF0D0003FC555 /* LayoutFuncs.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7A8ACD1C8FF0D0003FC555 /* LayoutFuncs.m */; };
+		2B7A8B311C900072003FC555 /* DaiwariTableControll.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7A8B301C900072003FC555 /* DaiwariTableControll.m */; };
+		2B7A8BBE1C900757003FC555 /* LayoutTableControll.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7A8BBD1C900757003FC555 /* LayoutTableControll.m */; };
+		2B8F150D1C8FB53A00AB3AC0 /* DaiwariFuncs.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8F150C1C8FB53A00AB3AC0 /* DaiwariFuncs.m */; };
+		2B9D06DE1C97927100D51F22 /* FuncsEPS in Resources */ = {isa = PBXBuildFile; fileRef = 2B9D06DD1C97927100D51F22 /* FuncsEPS */; };
+		2B9E70EE1C89485200FF2467 /* bunko.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B9E70EB1C89485200FF2467 /* bunko.png */; };
+		2B9E70EF1C89485200FF2467 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B9E70EC1C89485200FF2467 /* play.png */; };
+		2B9E70F01C89485200FF2467 /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B9E70ED1C89485200FF2467 /* setting.png */; };
+		2BBA803C1C89534E00031D13 /* NumTableControll.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA803B1C89534E00031D13 /* NumTableControll.m */; };
+		2BBBCDB91C91451700C241C7 /* CustumTabControll.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBBCDB81C91451700C241C7 /* CustumTabControll.m */; };
+		2BBBCE621C91540200C241C7 /* EPSFuncs.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBBCE611C91540200C241C7 /* EPSFuncs.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* DaiwarikunObjcAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaiwarikunObjcAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* DaiwarikunObjcAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaiwarikunObjcAppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* DaiwarikunObjc_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaiwarikunObjc_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		2B5951F11C8EAE100054A1AF /* NaosiData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaosiData.h; sourceTree = "<group>"; };
+		2B5951F21C8EAE100054A1AF /* NaosiData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NaosiData.m; sourceTree = "<group>"; };
+		2B5952931C8EBADD0054A1AF /* ErrorAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorAlert.h; sourceTree = "<group>"; };
+		2B5952941C8EBADD0054A1AF /* ErrorAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ErrorAlert.m; sourceTree = "<group>"; };
+		2B5952CF1C8EBD6A0054A1AF /* LayoutListControll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutListControll.h; sourceTree = "<group>"; };
+		2B5952D01C8EBD6A0054A1AF /* LayoutListControll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutListControll.m; sourceTree = "<group>"; };
+		2B5952D31C8EBEB20054A1AF /* Bai32L.lay */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Bai32L.lay; sourceTree = "<group>"; };
+		2B5952D41C8EBEB20054A1AF /* Bai32P.lay */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Bai32P.lay; sourceTree = "<group>"; };
+		2B5952D51C8EBEB20054A1AF /* Hon8P.lay */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hon8P.lay; sourceTree = "<group>"; };
+		2B5952D61C8EBEB20054A1AF /* Hon16P.lay */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hon16P.lay; sourceTree = "<group>"; };
+		2B5952D71C8EBEB20054A1AF /* Hon32L.lay */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hon32L.lay; sourceTree = "<group>"; };
+		2B5952D81C8EBEB20054A1AF /* Hon32P.lay */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hon32P.lay; sourceTree = "<group>"; };
+		2B5952D91C8EBEB20054A1AF /* Rin16.lay */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rin16.lay; sourceTree = "<group>"; };
+		2B5952DA1C8EBEB20054A1AF /* Rin32.lay */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rin32.lay; sourceTree = "<group>"; };
+		2B5952DB1C8EBEB20054A1AF /* Tan2P.lay */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Tan2P.lay; sourceTree = "<group>"; };
+		2B5952DC1C8EBEB20054A1AF /* Hon2P.lay */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hon2P.lay; sourceTree = "<group>"; };
+		2B5952DD1C8EBEB20054A1AF /* Hon4P.lay */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hon4P.lay; sourceTree = "<group>"; };
+		2B5952DE1C8EBEB20054A1AF /* Tan16L.lay */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Tan16L.lay; sourceTree = "<group>"; };
+		2B5952DF1C8EBEB20054A1AF /* Tan16P.lay */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Tan16P.lay; sourceTree = "<group>"; };
+		2B644F2C1C98DC4F00535EA9 /* daiwarikunIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = daiwarikunIcon.icns; sourceTree = "<group>"; };
+		2B7A8ACC1C8FF0D0003FC555 /* LayoutFuncs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutFuncs.h; sourceTree = "<group>"; };
+		2B7A8ACD1C8FF0D0003FC555 /* LayoutFuncs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutFuncs.m; sourceTree = "<group>"; };
+		2B7A8B2F1C900072003FC555 /* DaiwariTableControll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaiwariTableControll.h; sourceTree = "<group>"; };
+		2B7A8B301C900072003FC555 /* DaiwariTableControll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaiwariTableControll.m; sourceTree = "<group>"; };
+		2B7A8BBC1C900757003FC555 /* LayoutTableControll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutTableControll.h; sourceTree = "<group>"; };
+		2B7A8BBD1C900757003FC555 /* LayoutTableControll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutTableControll.m; sourceTree = "<group>"; };
+		2B8F150B1C8FB53A00AB3AC0 /* DaiwariFuncs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaiwariFuncs.h; sourceTree = "<group>"; };
+		2B8F150C1C8FB53A00AB3AC0 /* DaiwariFuncs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaiwariFuncs.m; sourceTree = "<group>"; };
+		2B9D06DD1C97927100D51F22 /* FuncsEPS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FuncsEPS; sourceTree = "<group>"; };
+		2B9E70EB1C89485200FF2467 /* bunko.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bunko.png; sourceTree = "<group>"; };
+		2B9E70EC1C89485200FF2467 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		2B9E70ED1C89485200FF2467 /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting.png; sourceTree = "<group>"; };
+		2BBA803A1C89534E00031D13 /* NumTableControll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumTableControll.h; sourceTree = "<group>"; };
+		2BBA803B1C89534E00031D13 /* NumTableControll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumTableControll.m; sourceTree = "<group>"; };
+		2BBBCDB71C91451700C241C7 /* CustumTabControll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustumTabControll.h; sourceTree = "<group>"; };
+		2BBBCDB81C91451700C241C7 /* CustumTabControll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustumTabControll.m; sourceTree = "<group>"; };
+		2BBBCE601C91540200C241C7 /* EPSFuncs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPSFuncs.h; sourceTree = "<group>"; };
+		2BBBCE611C91540200C241C7 /* EPSFuncs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPSFuncs.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* DaiwarikunObjc-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DaiwarikunObjc-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* DaiwarikunObjc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaiwarikunObjc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2B5952CE1C8EBD4D0054A1AF /* Controll */,
+				2B5951F41C8EAE150054A1AF /* Model */,
+				2BBA80391C89532500031D13 /* View */,
+				256AC3D80F4B6AC300CF3369 /* DaiwarikunObjcAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* DaiwarikunObjcAppDelegate.m */,
+				2B5952931C8EBADD0054A1AF /* ErrorAlert.h */,
+				2B5952941C8EBADD0054A1AF /* ErrorAlert.m */,
+				2BBBCDB71C91451700C241C7 /* CustumTabControll.h */,
+				2BBBCDB81C91451700C241C7 /* CustumTabControll.m */,
+				2BBBCE601C91540200C241C7 /* EPSFuncs.h */,
+				2BBBCE611C91540200C241C7 /* EPSFuncs.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* DaiwarikunObjc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* DaiwarikunObjc */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = DaiwarikunObjc;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* DaiwarikunObjc_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2B644F2C1C98DC4F00535EA9 /* daiwarikunIcon.icns */,
+				2B9D06DD1C97927100D51F22 /* FuncsEPS */,
+				2B5952D31C8EBEB20054A1AF /* Bai32L.lay */,
+				2B5952D41C8EBEB20054A1AF /* Bai32P.lay */,
+				2B5952DC1C8EBEB20054A1AF /* Hon2P.lay */,
+				2B5952DD1C8EBEB20054A1AF /* Hon4P.lay */,
+				2B5952D51C8EBEB20054A1AF /* Hon8P.lay */,
+				2B5952D61C8EBEB20054A1AF /* Hon16P.lay */,
+				2B5952D71C8EBEB20054A1AF /* Hon32L.lay */,
+				2B5952D81C8EBEB20054A1AF /* Hon32P.lay */,
+				2B5952D91C8EBEB20054A1AF /* Rin16.lay */,
+				2B5952DA1C8EBEB20054A1AF /* Rin32.lay */,
+				2B5952DB1C8EBEB20054A1AF /* Tan2P.lay */,
+				2B5952DE1C8EBEB20054A1AF /* Tan16L.lay */,
+				2B5952DF1C8EBEB20054A1AF /* Tan16P.lay */,
+				2B9E70EB1C89485200FF2467 /* bunko.png */,
+				2B9E70EC1C89485200FF2467 /* play.png */,
+				2B9E70ED1C89485200FF2467 /* setting.png */,
+				8D1107310486CEB800E47090 /* DaiwarikunObjc-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B5951F41C8EAE150054A1AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2B5951F11C8EAE100054A1AF /* NaosiData.h */,
+				2B5951F21C8EAE100054A1AF /* NaosiData.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2B5952CE1C8EBD4D0054A1AF /* Controll */ = {
+			isa = PBXGroup;
+			children = (
+				2BBA803A1C89534E00031D13 /* NumTableControll.h */,
+				2BBA803B1C89534E00031D13 /* NumTableControll.m */,
+				2B7A8B2F1C900072003FC555 /* DaiwariTableControll.h */,
+				2B7A8B301C900072003FC555 /* DaiwariTableControll.m */,
+				2B7A8BBC1C900757003FC555 /* LayoutTableControll.h */,
+				2B7A8BBD1C900757003FC555 /* LayoutTableControll.m */,
+				2B5952CF1C8EBD6A0054A1AF /* LayoutListControll.h */,
+				2B5952D01C8EBD6A0054A1AF /* LayoutListControll.m */,
+				2B8F150B1C8FB53A00AB3AC0 /* DaiwariFuncs.h */,
+				2B8F150C1C8FB53A00AB3AC0 /* DaiwariFuncs.m */,
+				2B7A8ACC1C8FF0D0003FC555 /* LayoutFuncs.h */,
+				2B7A8ACD1C8FF0D0003FC555 /* LayoutFuncs.m */,
+			);
+			name = Controll;
+			sourceTree = "<group>";
+		};
+		2BBA80391C89532500031D13 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* DaiwarikunObjc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "DaiwarikunObjc" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DaiwarikunObjc;
+			productInstallPath = "$(HOME)/Applications";
+			productName = DaiwarikunObjc;
+			productReference = 8D1107320486CEB800E47090 /* DaiwarikunObjc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DaiwarikunObjc" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* DaiwarikunObjc */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* DaiwarikunObjc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				2B9E70EE1C89485200FF2467 /* bunko.png in Resources */,
+				2B9E70EF1C89485200FF2467 /* play.png in Resources */,
+				2B9E70F01C89485200FF2467 /* setting.png in Resources */,
+				2B5952E01C8EBEB20054A1AF /* Bai32L.lay in Resources */,
+				2B5952E11C8EBEB20054A1AF /* Bai32P.lay in Resources */,
+				2B5952E21C8EBEB20054A1AF /* Hon8P.lay in Resources */,
+				2B5952E31C8EBEB20054A1AF /* Hon16P.lay in Resources */,
+				2B5952E41C8EBEB20054A1AF /* Hon32L.lay in Resources */,
+				2B5952E51C8EBEB20054A1AF /* Hon32P.lay in Resources */,
+				2B5952E61C8EBEB20054A1AF /* Rin16.lay in Resources */,
+				2B5952E71C8EBEB20054A1AF /* Rin32.lay in Resources */,
+				2B5952E81C8EBEB20054A1AF /* Tan2P.lay in Resources */,
+				2B5952E91C8EBEB20054A1AF /* Hon2P.lay in Resources */,
+				2B5952EA1C8EBEB20054A1AF /* Hon4P.lay in Resources */,
+				2B5952EB1C8EBEB20054A1AF /* Tan16L.lay in Resources */,
+				2B5952EC1C8EBEB20054A1AF /* Tan16P.lay in Resources */,
+				2B9D06DE1C97927100D51F22 /* FuncsEPS in Resources */,
+				2B644F2D1C98DC4F00535EA9 /* daiwarikunIcon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* DaiwarikunObjcAppDelegate.m in Sources */,
+				2BBA803C1C89534E00031D13 /* NumTableControll.m in Sources */,
+				2B5951F31C8EAE100054A1AF /* NaosiData.m in Sources */,
+				2B5952951C8EBADD0054A1AF /* ErrorAlert.m in Sources */,
+				2B5952D11C8EBD6A0054A1AF /* LayoutListControll.m in Sources */,
+				2B8F150D1C8FB53A00AB3AC0 /* DaiwariFuncs.m in Sources */,
+				2B7A8ACE1C8FF0D0003FC555 /* LayoutFuncs.m in Sources */,
+				2B7A8B311C900072003FC555 /* DaiwariTableControll.m in Sources */,
+				2B7A8BBE1C900757003FC555 /* LayoutTableControll.m in Sources */,
+				2BBBCDB91C91451700C241C7 /* CustumTabControll.m in Sources */,
+				2BBBCE621C91540200C241C7 /* EPSFuncs.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = stabs;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DaiwarikunObjc_Prefix.pch;
+				GCC_VERSION = 4.2;
+				INFOPLIST_FILE = "DaiwarikunObjc-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = DaiwarikunObjc;
+				SDKROOT = macosx10.6;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DaiwarikunObjc_Prefix.pch;
+				INFOPLIST_FILE = "DaiwarikunObjc-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = DaiwarikunObjc;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.4;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "DaiwarikunObjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DaiwarikunObjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

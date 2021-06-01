@@ -1,0 +1,198 @@
+/setTitle {
+	5 dict begin
+	/var exch def
+	/col exch def
+	/str exch def
+	/fb exch def
+	/no exch def
+	var (T) eq {
+		col 1 eq {
+			no 1 eq {
+				/no 1 def } {
+				/no no 1 add 2 div def } ifelse
+		} {
+			/no no 2 div def } ifelse
+	} if
+	fb (F) eq {
+		col 1 eq {
+			/curPosX cellWidth def } {
+			/curPosX cellWidth 9 mul graphWidth add def } ifelse 
+	} { 
+		col 1 eq {
+			/curPosX cellWidth 3 mul graphWidth add def } {
+			/curPosX cellWidth 11 mul graphWidth 2 mul add def } ifelse
+	} ifelse
+	/curPosX curPosX 4 add def
+	/curPosY colHeight curPosY add 5 sub def
+	0 0 0 setrgbcolor
+	/Osaka findfont fontScale scalefont setfont
+	curPosX curPosY neg moveto
+	str show
+	end
+} def
+
+/setNum {
+	7 dict begin
+	/var exch def
+	/col exch def
+	/str exch def
+	/fb exch def
+	/no exch def
+	/y exch def
+	/x exch def
+	var (T) eq {
+		col 1 eq {
+			no 1 eq {
+				/no 1 def } {
+				/no no 1 add 2 div def } ifelse
+		} {
+			/no no 2 div def } ifelse
+	} if
+	fb (F) eq {
+		col 1 eq {
+			/curPosX cellWidth def } {
+			/curPosX cellWidth 9 mul graphWidth add def } ifelse
+	} { 
+		col 1 eq {
+			/curPosX cellWidth 3 mul graphWidth add def } {
+			/curPosX cellWidth 11 mul graphWidth 2 mul add def } ifelse
+	} ifelse
+	/x x 1 sub def
+	/y y 1 add def
+	/curPosX cellWidth x mul curPosX add 4 add def
+	/curPosY colHeight y mul curPosY add 5 sub def
+	0 0 0 setrgbcolor
+	/Osaka findfont fontScale scalefont setfont
+	curPosX curPosY neg moveto
+	str show
+	end
+} def
+
+/markN {
+	7 dict begin
+	/syu exch def
+	/var exch def
+	/col exch def
+	/fb exch def
+	/no exch def
+	/y exch def
+	/x exch def
+	var (T) eq {
+		col 1 eq {
+			no 1 eq {
+				/no 1 def } {
+				/no no 1 add 2 div def } ifelse
+		} {
+			/no no 2 div def } ifelse
+	} if
+	fb (F) eq {
+		col 1 eq {
+			/curPosX cellWidth def } {
+			/curPosX cellWidth 9 mul graphWidth add def } ifelse
+	} { 
+		col 1 eq {
+			/curPosX cellWidth 3 mul graphWidth add def } {
+			/curPosX cellWidth 11 mul graphWidth 2 mul add def } ifelse
+	} ifelse
+	gsave
+	/x x 1 sub def
+	/curPosX cellWidth x mul curPosX add def
+	/curPosY colHeight y mul curPosY add def
+	syu (N) eq {
+		0.4 1.87 4.22 setrgbcolor
+		0.1 setlinewidth
+	} if
+	syu (W) eq {
+		0 0 0 setrgbcolor
+		1.2 setlinewidth
+	} if
+	syu (G) eq {
+		0.4 1.87 4.22 setrgbcolor
+		0.1 setlinewidth
+	} if
+	newpath curPosX curPosY neg moveto
+	cellWidth 0 rlineto
+	0 colHeight neg rlineto
+	cellWidth neg 0 rlineto
+	0 colHeight rlineto
+
+	syu (N) eq {
+		closepath fill
+	} if
+
+	syu (W) eq {
+		closepath
+	} if
+
+	syu (G) eq {
+		closepath fill
+		0 0 0 setrgbcolor
+		1.2 setlinewidth
+		newpath curPosX curPosY neg moveto
+		cellWidth 0 rlineto
+		0 colHeight neg rlineto
+		cellWidth neg 0 rlineto
+		0 colHeight rlineto
+		closepath
+	} if
+
+	end
+	stroke
+	grestore
+} def
+
+/setumei {
+	3 dict begin
+	/syu exch def
+	/str exch def
+	/dai exch def
+	/curPosX cellWidth def
+	/curPosX curPosX 5 add def
+	/curPosY curPosY 5 add def
+	gsave
+	syu (N) eq {
+		0.4 1.87 4.22 setrgbcolor
+		0.1 setlinewidth
+	} if
+	syu (W) eq {
+		0 0 0 setrgbcolor
+		1 setlinewidth
+	}
+	syu (G) eq {
+		0.4 1.87 4.22 setrgbcolor
+		0.1 setlinewidth
+	} if
+	newpath curPosX curPosY neg moveto
+	cellWidth 0 rlineto
+	0 colHeight neg rlineto
+	cellWidth neg 0 rlineto
+	0 colHeight rlineto
+	syu (N) eq {
+		closepath fill
+	} if
+
+	syu (W) eq {
+		closepath
+	} if
+
+	syu (G) eq {
+		closepath fill
+		0 0 0 setrgbcolor
+		1.2 setlinewidth
+		newpath curPosX curPosY neg moveto
+		cellWidth 0 rlineto
+		0 colHeight neg rlineto
+		cellWidth neg 0 rlineto
+		0 colHeight rlineto
+		closepath
+	} if
+	stroke
+	/curPosX curPosX cellWidth add def
+	/curPosY curPosY colHeight add 6 sub def
+	/Osaka findfont fontScale scalefont setfont
+	0 0 0 setrgbcolor
+	curPosX curPosY neg moveto
+	str show
+	end
+	grestore
+} def
